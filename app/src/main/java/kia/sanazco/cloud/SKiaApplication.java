@@ -18,7 +18,7 @@ import java.time.Duration;
 @EnableFeignClients
 @EnableScheduling
 @EnableAsync
-@SpringBootApplication/*(scanBasePackageClasses = {"kia.sanazco.cloud"})*/
+@SpringBootApplication(scanBasePackages = {"kia.sanazco.cloud"})
 @PropertySource({"classpath:swagger-messages.properties.properties"})
 public class SKiaApplication {
     public static void main(String[] args) {
