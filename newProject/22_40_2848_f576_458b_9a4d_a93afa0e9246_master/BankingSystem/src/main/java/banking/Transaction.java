@@ -20,7 +20,7 @@ public class Transaction implements TransactionInterface {
 
     public double getBalance() {
         if (bank == null) {
-            throw new IllegalStateException("bank not set");
+            throw new IllegalStateException("bank not set ");
         }
         return this.bank.getBalance(accountNumber);
     }
